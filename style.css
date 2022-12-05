@@ -1,0 +1,16 @@
+.background{
+    background-image: url("background.jpg");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.nav-link{
+    color:rgb(0, 0, 0) !important;
+    font-size:1.5rem !important;
+}
+
+button{
+    color:black !important;
+    font-size:1.5rem !important;
+}
