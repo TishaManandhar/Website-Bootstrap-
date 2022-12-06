@@ -1,3 +1,7 @@
+body{
+    font-family: "Times New Roman", Times, serif !important;
+}
+
 .background{
     background-image: url("background.jpg");
     height:100vh;
@@ -5,12 +9,157 @@
     background-size:cover;
 }
 
-.nav-link{
-    color:rgb(0, 0, 0) !important;
-    font-size:1.5rem !important;
+.love{
+    display:flex;
+}
+
+.material-symbols-outlined{
+    margin-top:13px !important;
+}
+
+.cart{
+    display:flex;
 }
 
 button{
     color:black !important;
-    font-size:1.5rem !important;
+    font-size:1.2rem !important;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:6px !important;
+    background-color: transparent;
+    margin-top: 5px !important;
+    width:150px;
+}
+
+.login1{
+    margin-left: 100px !important;
+}
+
+#person{
+    margin-right:5px!important;
+    /* margin-left:20px!important; */
+    margin-top: 5px !important;
+}
+
+.nav-item {
+    margin-left:30px;
+}
+
+.nav-link{
+    color:rgb(0, 0, 0) !important;
+    font-size:1.2rem !important;
+}
+
+.middle{
+    margin-top:70px !important;
+}
+
+#enjoy{
+    font-size: 20px !important;
+}
+
+#travel{
+    font-size: 70px !important;
+    font-weight: bold;
+}
+
+.section{
+    margin-top:70px;
+    display:flex;
+    background-color:#bcced2;
+    border-radius:15px;
+    width:850px;
+    position: relative;
+    align-items: center;
+    justify-content:first baseline;
+
+}
+
+.location{
+    margin-left:10px;
+    margin-top: 10px;
+    font-size: 23px !important;
+    font-weight: bold;
+}
+
+.top{
+    margin-left: 50px;
+    margin-right: 30px;
+    font-size:20px !important
+}
+
+.cox{
+    display:flex;
+}
+
+.material-symbols-outlined{
+    margin-top: 5px;
+    color:#725c49;
+}
+
+.end{
+   position: absolute;
+   right: 0;
+   margin-right: 20px;
+}
+
+#trip{
+
+    height:45px;
+    background-color:#447b8f;
+    border:none;
+    border-radius: 5px;
+    color:white !important;
+    font-size: 19px !important;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 90px !important; */
+}
+
+
+#lorem{
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.features{
+    text-align: center;
+}
+
+h3 {
+    font-size:30px !important;
+}
+
+/*second page*/
+
+.col{
+    border: 2px solid #725c49;
+    border-radius: 5px;
+    margin-right:50px;
+    margin-top: 70px !important;
+}
+
+.features .material-symbols-outlined{
+    color:#528596;
+    font-size: 100px !important;
+    margin-top: 50px !important;
+    margin-bottom: 30px !important;
+}
+
+.features h3{
+    font-weight: bold;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.features p{
+    font-size: 20px;
+    margin: 0 6px;
+    margin-bottom: 70px;
+    margin-top: 10px;
 }
