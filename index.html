@@ -14,21 +14,81 @@
     />
 
     <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
 
     <!-- Latest compiled and minified CSS -->
     <!-- JavaScript Bundle with Popper -->
   </head>
   <body>
     <div class="background">
+      
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container">
+        <nav class="navbar navbar-expand-lg bg-light" style="background-color:transparent !important;">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <h3 style="font-weight: bold !important; color: #725c49">
+                Get <br />
+                your <br />
+                guide
+              </h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style = "text-align: center;margin-left: 200px !important;">
+                    English
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Nepali</a></li>
+                    <li><a class="dropdown-item" href="#">German</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">French</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    USD
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Rupees</a></li>
+                    <li><a class="dropdown-item" href="#">Euro</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Pound</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <div class="love">
+                    <span class="material-symbols-outlined">favorite</span>
+                    <a class="nav-link" href="#">Wishlist</a>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <div class="cart">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    <a class="nav-link" href="#">Cart</a>
+                  </div>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <button class="btn btn-outline-success" type="submit">
+                  <i class="bi bi-person"></i>
+                      <span>Log in</span></button>
+                <button class="btn btn-outline-success" type="submit">
+                  <i class="bi bi-telegram"></i>
+                    <span>Sign up</span> </button>
+              </form>
+            </div>
+          </div>
+        </nav> 
+        <!-- <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
             <a class="navbar-brand">
               <h3 style="font-weight: bold !important; color: #725c49">
                 Get <br />
@@ -125,7 +185,7 @@
               </ul>
             </div>
           </div>
-        </nav>
+        </nav> -->
 
         <div class="middle">
           <p id="enjoy">Travel and enjooy, be safe</p>
@@ -181,7 +241,7 @@
 
         <div class="container text-center">
           <div class="row">
-            <div class="col">
+            <div class="col-md-6 col-lg-4">
               <span class="material-symbols-outlined"> bed </span>
               <h3>Find authentic experiences</h3>
               <p>
@@ -189,7 +249,7 @@
                 explore more of the world
               </p>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-4">
               <span class="material-symbols-outlined"> local_shipping </span>
               <h3>Book with flexibility</h3>
               <p>
@@ -197,7 +257,7 @@
                 Discover the world your way
               </p>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-lg-4">
               <span class="material-symbols-outlined"> forest </span>
               <h3>Explore the possibilities</h3>
               <p>
@@ -240,11 +300,14 @@
                     <p class="card-text">
                       <div class="star1">
                         <p class="number">(1203)</p>
-                        <span class="material-symbols-outlined"> star </span>
-                        <span class="material-symbols-outlined"> star </span>
-                        <span class="material-symbols-outlined"> star </span>
-                        <span class="material-symbols-outlined"> star </span>
-                        <span class="material-symbols-outlined"> star </span>
+                        <div class="star">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                          
                        </div>
                        <div class="star2">
                         <p> From US$ 18.75 per person</p>
@@ -263,11 +326,13 @@
                   <p class="card-text">
                     <div class="star1">
                       <p class="number">(1203)</p>
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
+                      <div class="star" >
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
                      </div>
                      <div class="star2">
                       <p> From US$ 18.75 per person</p>
@@ -287,11 +352,13 @@
                   <p class="card-text">
                     <div class="star1">
                       <p class="number">(1203)</p>
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
+                      <div class="star">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
                      </div>
                      <div class="star2">
                       <p> From US$ 18.75 per person</p>
@@ -317,11 +384,13 @@
                      <p class="card-text">
                        <div class="star1">
                          <p class="number">(1203)</p>
-                         <span class="material-symbols-outlined"> star </span>
-                         <span class="material-symbols-outlined"> star </span>
-                         <span class="material-symbols-outlined"> star </span>
-                         <span class="material-symbols-outlined"> star </span>
-                         <span class="material-symbols-outlined"> star </span>
+                         <div class="star">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
                         </div>
                         <div class="star2">
                          <p> From US$ 18.75 per person</p>
@@ -341,11 +410,13 @@
                    <p class="card-text">
                      <div class="star1">
                        <p class="number">(1203)</p>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
+                       <div class="star">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
                       </div>
                       <div class="star2">
                        <p> From US$ 18.75 per person</p>
@@ -365,11 +436,13 @@
                    <p class="card-text">
                      <div class="star1">
                        <p class="number">(1203)</p>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
+                       <div class="star">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
                       </div>
                       <div class="star2">
                        <p> From US$ 18.75 per person</p>
@@ -389,11 +462,13 @@
                    <p class="card-text">
                      <div class="star1">
                        <p class="number">(1203)</p>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
+                       <div class="star">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
                       </div>
                       <div class="star2">
                        <p> From US$ 18.75 per person</p>
@@ -412,11 +487,13 @@
                    <p class="card-text">
                      <div class="star1">
                        <p class="number">(1203)</p>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
+                       <div class="star">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
                       </div>
                       <div class="star2">
                        <p> From US$ 18.75 per person</p>
@@ -435,11 +512,13 @@
                  <p class="card-text">
                    <div class="star1">
                      <p class="number">(1203)</p>
-                     <span class="material-symbols-outlined"> star </span>
-                     <span class="material-symbols-outlined"> star </span>
-                     <span class="material-symbols-outlined"> star </span>
-                     <span class="material-symbols-outlined"> star </span>
-                     <span class="material-symbols-outlined"> star </span>
+                     <div class="star">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
                     </div>
                     <div class="star2">
                      <p> From US$ 18.75 per person</p>
@@ -601,11 +680,19 @@
 
       <div class="saying">
         <h1> What are people saying <br> About us! </h1>
-        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div  style ="display:flex; justify-content: flex-end; margin-bottom: 10px;">
+            <span  aria-hidden="true" style="color:black ;" data-bs-target="#carouselExampleControls1" data-bs-slide="prev" > <img src="left-arrow.png" alt="" style = "height: 30px; margin-right:20px;"></span>
+
+            <span  aria-hidden="true" style="color:black ;" data-bs-target="#carouselExampleControls1" data-bs-slide="next">  <img src="right-arrow.png" alt="" style = "height: 30px;"> </span>
+
+          </div>
+        <div id="carouselExampleControls1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    
+
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="cards-wrapper">
-                <div class="card"  style="width:1200px !important; height:350px !important">
+                <div class="card"  style="width:1200px !important; height:350px !important;">
                   <div class="us" style = "display: flex;">
                     <div class="image-wrapper">
                       <img src="couple.jpg" class="card-img-top" alt="..." style = "height:310px; width:300px">   
@@ -614,12 +701,12 @@
                 
                  <div class="card-body">
                    <h5 class="card-title"> 
-                    <div class="star1" style="margin-left:300px;">
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
+                    <div class="star1" style="margin-left:300px; color:rgb(162, 89, 0) !important">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
                      </div>
                     
                      </h5>
@@ -657,12 +744,12 @@
                     <p> I am very helpful in making a website and business development that
                       makes the product that i have to have a quality for unnecessary by the user. 
                     </p>
-                    <div class="star3" style = "margin-left: 65px;">
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
-                      <span class="material-symbols-outlined"> star </span>
+                    <div class="star1" style = "margin-left: 65px;">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
                     </div>
                      
                      </div>
@@ -681,12 +768,12 @@
                      <p> I am very helpful in making a website and business development that
                        makes the product that i have to have a quality for unnecessary by the user. 
                      </p>
-                     <div class="star3">
-                      <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
-                       <span class="material-symbols-outlined"> star </span>
+                     <div class="star1">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
                      </div>
                        
                       </div>
@@ -712,11 +799,11 @@
                    <div class="card-body">
                      <h5 class="card-title"> 
                       <div class="star1" style="margin-left:300px;">
-                        <span class="material-symbols-outlined"> star </span>
-                        <span class="material-symbols-outlined"> star </span>
-                        <span class="material-symbols-outlined"> star </span>
-                        <span class="material-symbols-outlined"> star </span>
-                        <span class="material-symbols-outlined"> star </span>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
                        </div>
                       
                        </h5>
@@ -754,12 +841,12 @@
                       <p> I am very helpful in making a website and business development that
                         makes the product that i have to have a quality for unnecessary by the user. 
                       </p>
-                      <div class="star3" style = "margin-left: 65px;">
-                        <span class="material-symbols-outlined"> star </span>
-                        <span class="material-symbols-outlined"> star </span>
-                        <span class="material-symbols-outlined"> star </span>
-                        <span class="material-symbols-outlined"> star </span>
-                        <span class="material-symbols-outlined"> star </span>
+                      <div class="star1" style = "margin-left: 65px;">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
                       </div>
                        
                        </div>
@@ -778,12 +865,12 @@
                        <p> I am very helpful in making a website and business development that
                          makes the product that i have to have a quality for unnecessary by the user. 
                        </p>
-                       <div class="star3">
-                        <span class="material-symbols-outlined"> star </span>
-                         <span class="material-symbols-outlined"> star </span>
-                         <span class="material-symbols-outlined"> star </span>
-                         <span class="material-symbols-outlined"> star </span>
-                         <span class="material-symbols-outlined"> star </span>
+                       <div class="star1">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
                        </div>
                          
                         </div>
@@ -808,11 +895,11 @@
                      <div class="card-body">
                        <h5 class="card-title"> 
                         <div class="star1" style="margin-left:300px;">
-                          <span class="material-symbols-outlined"> star </span>
-                          <span class="material-symbols-outlined"> star </span>
-                          <span class="material-symbols-outlined"> star </span>
-                          <span class="material-symbols-outlined"> star </span>
-                          <span class="material-symbols-outlined"> star </span>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
                          </div>
                         
                          </h5>
@@ -850,12 +937,12 @@
                         <p> I am very helpful in making a website and business development that
                           makes the product that i have to have a quality for unnecessary by the user. 
                         </p>
-                        <div class="star3" style = "margin-left: 65px;">
-                          <span class="material-symbols-outlined"> star </span>
-                          <span class="material-symbols-outlined"> star </span>
-                          <span class="material-symbols-outlined"> star </span>
-                          <span class="material-symbols-outlined"> star </span>
-                          <span class="material-symbols-outlined"> star </span>
+                        <div class="star1" style = "margin-left: 65px;">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
                         </div>
                          
                          </div>
@@ -874,12 +961,12 @@
                          <p> I am very helpful in making a website and business development that
                            makes the product that i have to have a quality for unnecessary by the user. 
                          </p>
-                         <div class="star3">
-                          <span class="material-symbols-outlined"> star </span>
-                           <span class="material-symbols-outlined"> star </span>
-                           <span class="material-symbols-outlined"> star </span>
-                           <span class="material-symbols-outlined"> star </span>
-                           <span class="material-symbols-outlined"> star </span>
+                         <div class="star1">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
                          </div>
                            
                           </div>
@@ -894,14 +981,6 @@
                   </div>
             </div>
 
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
 
       </div>
@@ -990,10 +1069,7 @@
 
     <!-- Latest compiled JavaScript -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+    </body>
 </html>

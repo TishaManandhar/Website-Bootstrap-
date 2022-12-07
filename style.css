@@ -30,22 +30,12 @@ button {
   align-items: center;
   border-radius: 6px !important;
   background-color: transparent;
-  margin-top: 5px !important;
-  width: 150px;
-}
-
-.login1 {
-  margin-left: 100px !important;
-}
-
-#person {
-  margin-right: 5px !important;
-  /* margin-left:20px!important; */
-  margin-top: 5px !important;
+  width: 130px;
+  margin-right: 20px !important;
 }
 
 .nav-item {
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .nav-link {
@@ -272,11 +262,13 @@ h3 {
 
 .star{
     display: flex;
-    margin-bottom: -15px ;
+    margin-top: 13px !important;
+    margin-left: 3px !important;
 }
 
-.star .material-symbols-outlined{
+.star i{
     color:rgb(162, 89, 0) !important;
+    margin-right:10px;
 }
 .number{
     margin-top:14px !important;
@@ -305,7 +297,8 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:auto;
+    /* margin:auto; */
+    margin-left: 550px;
     margin-top: 90px !important;
 
 
@@ -462,4 +455,20 @@ h3 {
   text-align: left;
   margin-bottom: 30px;
   line-height: 15px;
+}
+.carousel-control-prev {
+  top: 50%  !important;
+  left: -98px !important;
+  color:rgb(0, 0, 0) !important;
+}
+
+.carousel-control-next{
+  top: 50%  !important;
+  right: -110px !important;
+  color:rgb(0, 0, 0) !important;
+}
+
+.star1 i{
+  color:rgb(162, 89, 0) !important;
+  margin-right: 4px;
 }
