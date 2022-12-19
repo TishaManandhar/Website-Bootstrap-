@@ -320,6 +320,11 @@ h3 {
    margin-left:-166px !important;
 }
 
+.inner-text{
+  margin-top:10px; 
+  text-align: left;
+}
+
 #great{
   font-size:25px !important;
   font-weight:bold; 
