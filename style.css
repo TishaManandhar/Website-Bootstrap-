@@ -247,7 +247,7 @@ h3 {
 .star1{
   display:flex;
   position:absolute;
-  left:-24px;
+  left:-120px;
   margin-top:-1px;
   width:100%;
   justify-content: center;
@@ -256,7 +256,8 @@ h3 {
 .star2{
   display: flex;
   position:absolute;
-  right:20px;
+  right:8px;
+  bottom:-13px;
 }
 
 .explore .col{
@@ -302,6 +303,35 @@ h3 {
     margin-bottom: -5px ;
 }
 
+.saying .card-img-top{
+  height:310px;
+  width:300px;
+}
+
+#one-card{
+  width: 1000px !important;
+}
+
+.it{
+    font-size:25px !important;
+   font-weight:bold; 
+   margin-top: 50px; 
+   text-align: left;
+}
+
+.exp{
+  margin-top:30px !important;
+  font-size:25px !important;
+}
+
+.unf{
+  margin-top: 30px !important;
+  font-size:22px !important;
+  font-weight:bold; 
+  line-height:25px; 
+  text-align: center;
+  margin-top: 30px;
+}
 .road{
     font-size:18px;
     text-align: left !important;
@@ -309,6 +339,10 @@ h3 {
     margin-bottom: -15px ;
 }
 
+.er{
+  font-weight: bold;
+  
+}
 .star{
     display: flex;
     margin-top: 13px !important;
@@ -366,12 +400,29 @@ h3 {
 
 .saying .card img{
   margin-left:0px;
+  height:300px;
+  width:275px;
+  margin-top:5px;
 }
 
 .saying .card{
   display:flex;
+ 
 }
-            
+
+.saying .star1{
+  margin-left:175px !important;
+}
+
+#sterne{
+  text-align: center;
+  
+}
+
+#happy1{
+  height:310px; 
+  width:300px
+}
 /*travel*/
 
 .journey{
@@ -380,7 +431,7 @@ h3 {
 }
 
 .journey .col{
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 .journey .your{
     font-weight: bold;
@@ -568,7 +619,7 @@ button:hover{
 }
 
 .saying .card{
-  width:1200px !important;
+  width:448px !important;
   height:350px !important
 
 }
@@ -578,124 +629,7 @@ button:hover{
    margin-top:60px;
 }
 
-@media (max-width:320px) {
-  .footer .ellite{
-    font-size: 30px;
-  }
 
-  .copyright{
-    margin-top: 67px;
-  }
-
-  .contact{
-    margin-top: 20px;
-  }
-
-  .mail{
-    margin-top: 30px;
-  }
-  .background{
-    height:100%;
-    width:100%;
-    object-fit: contain;
-  }
-  
-  #enjoy{
-    margin-top: 15px;
-  }
-  #travel{
-    font-size: 35px !important;
-    margin-top:10px !important;
-  }
-
-  .section{
-    width: 287px !important;
-    height:190px;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #bcced2b8;
-  }
-
-  
-
-  .section p{
-    font-size: 10px !important;
-  }
-  .location{
-    font-size:19px;
-  }
-
-  .material-symbols-outlined{
-    /* margin-left: -50px; */
-    font-size: 22px ;
-    margin-right: -2px;
-    margin-left: -19px !important;
-    margin-top: 1px !important;
-  }
-
-  .cox{
-    margin-left:-28px;
-  }
-
-  .top p{
-    font-size: 18px !important;
-  }
-
-  #trip{
-    width:101px;
-    height:40px;
-    font-size: 15px !important;
-    
-    
-  }
-
- .end{
-  position:static;
-  grid-column-start: 2;
- }
-
- #lorem{
-  margin-top: 50px;
-  font-size: 18px;
-  color:black;
-  font-weight: bold;
-  background-color: #d2bcbcdd;
- }
-
-
-  /* .carousel-control-next{
-    top: 50%  !important;
-    right: 80px !important;
-    color:rgb(0, 0, 0) !important;
-  } */
-
-  .discount img{
-    height:100px;
-    width:140px;
-  }
-  .discount.h5{
-    font-size: 5px;
-    line-height: 17px;
-  }
-  
-  .card title{
-    font-size:5px !important;
-    font-style: normal;
-  }
-
-  .saying{
-    display:none;
-  }
-
-  .angels{
-    margin-top: -111px !important;
-  }
-
-  .journey .your{
-      font-size: 25px !important;
-  }
-  
- }
 
  @media (max-width:768px){
   .section{
@@ -750,6 +684,11 @@ button:hover{
     font-size: 36px !important;
   }
 
+  .saying .card{
+    width:200px !important;
+    height:350px !important
+  
+  }
   .saying .card img{
     display:none;
   }
@@ -758,15 +697,18 @@ button:hover{
   }
 
   .saying p{
-    font-size: 20px !important;
+    font-size:13px !important;
   }
 
   .saying .card {
     width:365px !important;
   }
 
+  #one-card{
+    width:320px !important
+  }
   .saying .star1{
-    display:none;
+      left:-194px !important
   }
 
   #second-row{
@@ -851,6 +793,263 @@ button:hover{
 #lorem{
   color:#000000
 }
+
+.star1{
+  left:-12px;
 }
+
+.saying .card-title{
+  font-size:20px; 
+  font-weight:bold;
+   line-height:25px;
+    text-align: center;
+}
+
+.it{
+  font-size:25px !important; 
+  font-weight:bold;
+   line-height:25px;
+    text-align: center;
+}
+.saying h1{
+ 
+}
+
+
+}
+
+@media (max-width:320px) {
+  .footer .ellite{
+    font-size: 30px;
+  }
+
+  .copyright{
+    margin-top: 67px;
+  }
+
+
+  .contact{
+    margin-top: 20px;
+  }
+
+  .mail{
+    margin-top: 30px;
+  }
+  /* .background{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+  }
+  
+  #enjoy{
+    margin-top: 15px;
+  }
+  #travel{
+    font-size: 35px !important;
+    margin-top:10px !important;
+  }
+
+  .section{
+    width: 287px !important;
+    height:190px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #bcced2b8;
+  }
+
+  
+
+  .section p{
+    font-size: 10px !important;
+  }
+  .location{
+    font-size:19px;
+  }
+
+  .material-symbols-outlined{
+    /* margin-left: -50px; 
+    font-size: 22px ;
+    margin-right: -2px;
+    margin-left: -19px !important;
+    margin-top: 1px !important;
+  }
+
+  .cox{
+    margin-left:-28px;
+  }
+
+  .top p{
+    font-size: 18px !important;
+  }
+
+  #trip{
+    width:101px;
+    height:40px;
+    font-size: 15px !important;
+    
+    
+  }
+
+ .end{
+  position:static;
+  grid-column-start: 2;
+ }
+
+ #lorem{
+  margin-top: 50px;
+  font-size: 18px;
+  color:black;
+  font-weight: bold;
+  background-color: #d2bcbcdd;
+ }
+
+
+  /* .carousel-control-next{
+    top: 50%  !important;
+    right: 80px !important;
+    color:rgb(0, 0, 0) !important;
+  } */ 
+
+  */
+  .discount img{
+    height:100px;
+    width:140px;
+  }
+  .discount.h5{
+    font-size: 5px;
+    line-height: 17px;
+  }
+  
+  #second-card{
+    display:none;
+  }
+
+  #third-card{
+    display:none;
+  }
+  .card title{
+    font-size:5px !important;
+    font-style: normal;
+  }
+
+  .saying{
+    display:none;
+  }
+
+  .angels{
+    margin-top: -111px !important;
+  }
+
+  .journey .your{
+      font-size: 25px !important;
+  }
+
+  .journey .input{
+      width:240px !important;
+  }
+  .journey .img{
+    margin-top: 327px;
+    height: 167px;
+  }
+
+  .explore img{
+    width:269px;
+  }
+
+  .explore h1{
+    font-size: 30px !important;
+  }
+
+  .explore .material-symbols-outlined{
+    margin-left:-9px !important;
+    margin-right:8px;
+  }
+  .destination h1{
+    font-size: 30px;
+  }
+
+  .discount .card-body{
+   
+  }
+
+  .discount .cards-wrapper{
+    width:515px;
+  }
+
+  .discount h5{
+    font-size: 14px;
+  }
+
+  .discount .star1{
+    left:-47px !important;
+    margin-top: -34px !important;
+  }
+
+  .discount .star2{
+    right:67px;
+  }
+
+  .discount h1{
+    font-size: 30px !important;
+  }
+
+  .features .material-symbols-outlined{
+    font-size: 75px !important;
+  }
+
+  .features h3{
+    font-size: 15px !important;
+  }
+
+  .features p{
+    font-size: 13px !important;
+  }
+
+  .last-btn button{
+    margin-left: -41px !important;
+  }
+
+  .section{
+    width:275px;
+    margin-top: 38px;
+  }
+
+  #red{
+    margin-top: 6px !important;
+  }
+  #trip{
+    margin-top: 190px !important;
+  }
+
+  #travel{
+    font-size: 26px !important;
+  }
+
+  #lorem{
+    font-size: 18px;
+  }
+  .top{
+    font-size: 15px !important;
+  }
+
+  .location{
+    font-size: 14px !important;
+  }
+
+  #enjoy{
+    margin-top: 75px;
+  }
+  .carousel-control-prev {
+    top: 50%  !important;
+    left:-10px !important;
+    color:rgb(0, 0, 0) !important;
+  }
+  
+  .carousel-control-next{
+    top: 50%  !important;
+    right:-10px !important;
+    color:rgb(0, 0, 0) !important;
+  }
+ }
 
 
