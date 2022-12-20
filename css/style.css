@@ -3,7 +3,7 @@ body {
 }
 
 .background {
-  background-image: url("background.jpg");
+  background-image: url("images/background.jpg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -213,9 +213,19 @@ h3 {
   width: 20 rem;
   height:300px !important;
   border: none !important;
-  box-shadow: 2px 5px rgba(166, 215, 239, 0.132);
+  box-shadow: 3px 3px 3px 3px rgba(166, 215, 239, 0.132);
 }
 
+/* .card-body:hover{
+  
+  border:1px solid #447b8f !important;
+} */
+.card:hover{
+  
+  border-right:1px solid #447b8f !important;
+  border-bottom:1px solid #447b8f !important;
+  border-left: 1px solid #447b8f !important;
+}
 .image-wrapper{
   /* height:22vw; */
  
@@ -226,9 +236,9 @@ h3 {
   width:450px;
   background-size: cover; */
     height:175px;
-    width:400px;
+    width:407px;
     background-size: cover;
-    border-radius: 15px;
+    border-radius: 7px;
 }
 
 .carousel-inner {
@@ -242,6 +252,12 @@ h3 {
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.carousel-control-prev,
+.carousel-control-next:hover{
+
+  background-color: none;
 }
 
 @media (min-width: 768px) {
@@ -377,7 +393,7 @@ h3 {
 .star{
     display: flex;
     margin-top: 13px !important;
-    margin-left: 3px !important;
+    margin-left: 11px !important;
 }
 
 .star i{
@@ -510,7 +526,7 @@ h3 {
 
 .discount h5{
   font-size:17px; 
-  font-weight:bold; 
+  font-weight:549; 
   line-height:25px;
 }
 
@@ -644,8 +660,12 @@ h3 {
 .owl-dots{
   display:none;
 }
-
+/* 
 button:hover{
+  color:white !important;
+  background-color: #447b8f !important;
+} */
+#nav-hover:hover{
   color:white !important;
   background-color: #447b8f !important;
 }
@@ -661,6 +681,9 @@ button:hover{
    margin-top:60px;
 }
 
+.carousel-button:hover{
+  background-color: none;
+}
 
 
  @media (max-width:768px){

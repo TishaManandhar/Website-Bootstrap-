@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <!--icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
@@ -82,10 +82,10 @@
                 </li>
               </ul>
               <form class="d-flex" role="search">
-                <button class="btn btn-outline-info" type="submit">
+                <button class="btn btn-outline-info"  id = "nav-hover" type="submit">
                   <i class="bi bi-person"></i>
                       <span>Log in</span></button>
-                <button class="btn btn-outline-info" type="submit">
+                <button class="btn btn-outline-info" id = "nav-hover" type="submit">
                   <i class="bi bi-telegram"></i>
                     <span>Sign up</span> </button>
               </form>
@@ -186,7 +186,9 @@
           </div>
         </div>
       </div>
+     </div>
 
+     <div class="container">
       <div class="discount">
         <h1>
           We have discount on this <br />
@@ -199,7 +201,7 @@
               <div class="cards-wrapper">
                 <div class="card">
                  <div class="image-wrapper">
-                       <img src="toronto.jpg" class="card-img-top" alt="...">   
+                       <img src="images/toronto.jpg" class="card-img-top" alt="...">   
                    
                  </div>
                  
@@ -227,7 +229,7 @@
                 </div>
                 <div class="card" id = "second-card">
                  <div class="image-wrapper">
-                       <img src="qubec.jpg" class="card-img-top" alt="...">                 
+                       <img src="images/qubec.jpg" class="card-img-top" alt="...">                 
                  </div>
                  <div class="card-body">
                   <h5 class="card-title">Canada:Old Town, creek,
@@ -253,7 +255,7 @@
                 </div>
                 <div class="card" id = "third-card">
                  <div class="image-wrapper">
-                       <img src="falls.jpg" class="card-img-top" alt="...">                 
+                       <img src="images/falls.jpg" class="card-img-top" alt="...">                 
                  </div>
                  <div class="card-body">
                   <h5 class="card-title">Canada:Old Town, creek,
@@ -283,7 +285,7 @@
               <div class="cards-wrapper">
                 <div class="card" id = "first-card">
                   <div class="image-wrapper">
-                        <img src="image6.jpg" class="card-img-top" alt="...">   
+                        <img src="images/image6.jpg" class="card-img-top" alt="...">   
                     
                   </div>
                   
@@ -310,7 +312,7 @@
                  </div>
                 <div class="card" id = "second-card">
                  <div class="image-wrapper">
-                       <img src="image1.jpg" class="card-img-top" alt="...">                 
+                       <img src="images/image1.jpg" class="card-img-top" alt="...">                 
                  </div>
                  
                   <div class="card-body">
@@ -336,7 +338,7 @@
                 </div>
                 <div class="card" id = "third-card">
                  <div class="image-wrapper">
-                       <img src="image2.jpg" class="card-img-top" alt="...">                 
+                       <img src="images/image2.jpg" class="card-img-top" alt="...">                 
                  </div>
                  
                   <div class="card-body">
@@ -365,7 +367,7 @@
               <div class="cards-wrapper">
                 <div class="card" id = "first-card">
                   <div class="image-wrapper">
-                    <img src="image3.jpg" class="card-img-top" alt="...">
+                    <img src="images/image3.jpg" class="card-img-top" alt="...">
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Canada:Old Town, creek,
@@ -389,7 +391,7 @@
                 </div>
                 <div class="card" id = "second-card">
                  <div class="image-wrapper">
-                       <img src="image4.jpg" class="card-img-top" alt="...">                 
+                       <img src="images/image4.jpg" class="card-img-top" alt="...">                 
                  </div>
                  
                   <div class="card-body">
@@ -414,7 +416,7 @@
                 </div>
                 <div class="card" id = "third-card">
                  <div class="image-wrapper">
-                       <img src="image5.jpg" class="card-img-top" alt="...">                 
+                       <img src="images/image5.jpg" class="card-img-top" alt="...">                 
                  </div>
 
                  <div class="card-body">
@@ -442,11 +444,11 @@
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <button class="carousel-control-prev" id = "carousel-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <button class="carousel-control-next" id = "carousel-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -455,7 +457,8 @@
         <button class="all">Explore all</button>
       </div>
       </div>
-
+      </div>
+      <div class="container">
       <div class="explore">
         <h1>
           Explore the Beautiful Beach & Resorts<br />
@@ -469,7 +472,7 @@
         <div class="container text-center">
           <div class="row">
             <div class="col">
-              <img src="toronto.jpg" alt="" />
+              <img src="images/toronto.jpg" alt="" />
               <p class="canada">Canada: Toronto</p>
               <p class="road">Road tour</p>
               <div class="star">
@@ -487,7 +490,7 @@
             </div>
 
             <div class="col">
-              <img src="qubec.jpg" alt="" />
+              <img src="images/qubec.jpg" alt="" />
               <p class="canada">Canada: Toronto</p>
               <p class="road">Road tour</p>
               <div class="star">
@@ -504,7 +507,7 @@
               </p>
             </div>
             <div class="col">
-              <img src="falls.jpg" alt="" />
+              <img src="images/falls.jpg" alt="" />
               <p class="canada">Canada: Toronto</p>
               <p class="road">Road tour</p>
               <div class="star">
@@ -525,7 +528,7 @@
           <!--second row-->
           <div class="row" id = "second-row">
             <div class="col">
-              <img src="image1.jpg" alt="" />
+              <img src="images/image1.jpg" alt="" />
               <p class="canada">Canada: Toronto</p>
               <p class="road">Road tour</p>
               <div class="star">
@@ -543,7 +546,7 @@
             </div>
 
             <div class="col">
-              <img src="image2.jpg" alt="" />
+              <img src="images/image2.jpg" alt="" />
               <p class="canada">Canada: Toronto</p>
               <p class="road">Road tour</p>
               <div class="star">
@@ -560,7 +563,7 @@
               </p>
             </div>
             <div class="col">
-              <img src="image3.jpg" alt="" />
+              <img src="images/image3.jpg" alt="" />
               <p class="canada">Canada: Toronto</p>
               <p class="road">Road tour</p>
               <div class="star">
@@ -583,7 +586,9 @@
           <button class="all">Explore all</button>
         </div>
       </div>
+      </div>
 
+      <div class="container">
       <div class="saying">
         <h1> What are people saying <br> About us! </h1>
         <div  style ="display:flex; justify-content: flex-end; margin-bottom: 10px;">
@@ -601,7 +606,7 @@
                 <div class="card" id = "one-card">
                   <div class="us" style = "display: flex;">
                     <div class="image-wrapper">
-                      <img src="couple.jpg" class="card-img-top" alt="...">   
+                      <img src="images/couple.jpg" class="card-img-top" alt="...">   
                   
                       </div>
                 
@@ -702,7 +707,7 @@
                   <div class="card" id = "one-card">
                     <div class="us" style = "display: flex;">
                       <div class="image-wrapper">
-                        <img src="happy1.jpg" class="card-img-top" alt="..." id = "happy1">   
+                        <img src="images/happy1.jpg" class="card-img-top" alt="..." id = "happy1">   
                     
                         </div>
                   
@@ -800,7 +805,7 @@
                     <div class="card" id = "one-card">
                       <div class="us" style = "display: flex;">
                         <div class="image-wrapper">
-                          <img src="happy2.jpg" class="card-img-top" alt="..." style = "height:310px; width:300px">   
+                          <img src="images/happy2.jpg" class="card-img-top" alt="..." style = "height:310px; width:300px">   
                       
                           </div>
                     
@@ -903,7 +908,9 @@
         </div>
 
       </div>
+      </div>
 
+      <div class="container">
       <div class="destination">
         <h1 style="font-weight: bold; font-size: 50px; margin-top: 70px">
          Our next destination<br>
@@ -977,12 +984,9 @@
           </div>
       </div> 
   </div>
+  </div>
 
-
-
-
-      </div>
-
+  <div class="container">
       <div class="journey">
         <div class="container text-center">
           <div class="row">
@@ -1008,12 +1012,13 @@
             </div>
 
             <div class="col">
-              <img src="toronto.jpg" class="img-fluid" alt="Responsive image">
+              <img src="images/toronto.jpg" class="img-fluid" alt="Responsive image">
               
             </div>
           </div>
         </div>
       </div>
+
 
     </div>
     <div class="footer">
