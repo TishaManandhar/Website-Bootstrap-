@@ -305,16 +305,28 @@ h3 {
   /* bottom:-13px; */
 }
 
-.explore .col{
+.inside{
+  margin-right: 20px;
+ 
+  width:390px;
+  box-shadow: 1px 3px 0px 0px rgba(166, 215, 239, 0.132);
+}
+.inside-inside{
+  margin-left: 25px;
+}
+
+.discount .inside-inside{
+ margin-left:-10px;
+}
+.explore #column{
     margin-top: 30px;
-    margin-right:50px;
-    box-shadow: 2px 5px rgba(166, 215, 239, 0.132);
+    /* box-shadow: 3px 3px 0px 0px rgba(166, 215, 239, 0.132); */
     margin-bottom:20px;
 }
 
 .explore img{
-    height:175px;
-    width:358px;
+    height:190px;
+    width:100%;
     background-size: cover;
     border-radius: 15px;
 }
@@ -445,7 +457,7 @@ h3 {
 }
 
 .money{
-    font-size:18px;
+    font-size:19px;
     text-align: left !important;
     font-weight:549 !important;
     margin-top: -21px !important;
@@ -601,6 +613,7 @@ h3 {
   font-size:17px; 
   font-weight:549; 
   line-height:25px;
+  margin-bottom:-27px;
 }
 
 /*footer*/
