@@ -85,6 +85,15 @@ button {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.small-box{
+  border: 2px solid #725c49;
+  height:425px;
+  border-radius:8px;
+  margin-right: 34px;
+
+}
+
+
 .location {
   margin-left:5px;
   font-size: 23px !important;
@@ -137,6 +146,10 @@ button {
   margin-top: 70px;
   font-size: 23px;
 }
+
+/* .col-md-6{
+  border:1px solid #725c49;
+} */
 
 .features {
   text-align: center;
@@ -326,10 +339,14 @@ h3 {
 }
 
 #great{
-  font-size:25px !important;
+  font-size:20px !important;
   font-weight:bold; 
   line-height:25px;
   text-align: center;
+}
+
+.it{
+  font-size:20px !important;
 }
 
 .exp{
@@ -529,13 +546,14 @@ h3 {
   position:absolute;
   left:50;
   margin-bottom: 50px !important;
+  margin-top: 11px;
 }
 
 .copyright{
   text-align:left;
   margin-top: 100px;
 }
-
+ 
 .contact{
   font-size: 30px;
   margin-top: 70px;
@@ -670,7 +688,11 @@ button:hover{
   }
 
   .journey img{
-    height:200px;
+    height:275px;
+  }
+
+  .journey .img-fluid{
+    max-width:93%;
   }
 
   .journey input{
@@ -685,6 +707,12 @@ button:hover{
     font-size: 17px !important;
   }
 
+  .last-btn button{
+    margin-left: 9px;
+  }
+  .last-btn .material-symbols-outlined{
+    margin-top: 7px;
+  }
   .destination h1{
     font-size: 36px !important;
   }
@@ -706,11 +734,11 @@ button:hover{
     display:none;
   }
   .saying .star1{
-    left:-12px !important
+    display: none;
   }
 
   .saying p{
-    font-size:13px !important;
+    font-size:15px !important;
   }
 
   .saying .card {
@@ -824,8 +852,9 @@ button:hover{
    line-height:25px;
     text-align: center;
 }
-.saying h1{
- 
+
+.inner-text{
+  margin-left: -42px;
 }
 
 
@@ -848,82 +877,14 @@ button:hover{
   .mail{
     margin-top: 30px;
   }
-  /* .background{
-    height:100%;
-    width:100%;
-    object-fit: contain;
-  }
   
-  #enjoy{
-    margin-top: 15px;
-  }
-  #travel{
-    font-size: 35px !important;
-    margin-top:10px !important;
-  }
-
-  .section{
-    width: 287px !important;
-    height:190px;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #bcced2b8;
-  }
-
-  
-
   .section p{
-    font-size: 10px !important;
+    font-size: 15px !important;
   }
   .location{
     font-size:19px;
-  }
-
-  .material-symbols-outlined{
-    /* margin-left: -50px; 
-    font-size: 22px ;
-    margin-right: -2px;
-    margin-left: -19px !important;
-    margin-top: 1px !important;
-  }
-
-  .cox{
-    margin-left:-28px;
-  }
-
-  .top p{
-    font-size: 18px !important;
-  }
-
-  #trip{
-    width:101px;
-    height:40px;
-    font-size: 15px !important;
-    
-    
-  }
-
- .end{
-  position:static;
-  grid-column-start: 2;
- }
-
- #lorem{
-  margin-top: 50px;
-  font-size: 18px;
-  color:black;
-  font-weight: bold;
-  background-color: #d2bcbcdd;
- }
-
-
-  /* .carousel-control-next{
-    top: 50%  !important;
-    right: 80px !important;
-    color:rgb(0, 0, 0) !important;
-  } */ 
-
-  */
+  } 
+  
   .discount img{
     height:100px;
     width:140px;
@@ -960,9 +921,14 @@ button:hover{
   .journey .input{
       width:240px !important;
   }
-  .journey .img{
-    margin-top: 327px;
-    height: 167px;
+ 
+
+  .journey .img-fluid{
+    max-width: 105%;
+    margin-top: 174px !important;
+    object-fit: contain;
+    height:200px;
+    
   }
 
   .explore img{
@@ -978,13 +944,13 @@ button:hover{
     margin-right:8px;
   }
   .destination h1{
-    font-size: 30px;
+    font-size: 30px !important;
   }
 
-  .discount .card-body{
-   
+  .destination p{
+    font-size: 18px !important;
   }
-
+ 
   .discount .cards-wrapper{
     width:515px;
   }
@@ -1011,11 +977,11 @@ button:hover{
   }
 
   .features h3{
-    font-size: 15px !important;
+    font-size: 20px !important;
   }
 
   .features p{
-    font-size: 13px !important;
+    font-size: 17px !important;
   }
 
   .last-btn button{
@@ -1023,10 +989,21 @@ button:hover{
   }
 
   .section{
-    width:275px;
+    width:290px;
     margin-top: 38px;
   }
+  
+  .canada{
+    font-size: 15px;
+  }
 
+  .money{
+    font-size: 15px;
+  }
+
+  .road{
+    font-size: 15px;
+  }
   #red{
     margin-top: 6px !important;
   }
@@ -1034,12 +1011,15 @@ button:hover{
     margin-top: 190px !important;
   }
 
+
   #travel{
     font-size: 26px !important;
   }
 
   #lorem{
     font-size: 18px;
+    margin-top: 115px;
+    line-height: 21px;
   }
   .top{
     font-size: 15px !important;
@@ -1060,8 +1040,12 @@ button:hover{
   
   .carousel-control-next{
     top: 50%  !important;
-    right:-10px !important;
+    right:-20px !important;
     color:rgb(0, 0, 0) !important;
+  }
+
+  .col-md-6{
+      width: 100% !important;
   }
  }
 
