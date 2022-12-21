@@ -9,6 +9,8 @@ body {
   background-size: cover;
 }
 
+
+
 /*navbar*/
 
 .love {
@@ -68,6 +70,9 @@ button {
   margin-top: 115px;
 }
 
+#red:hover{
+  background-color: red;
+}
 #travel {
   font-size: 70px !important;
   font-weight: bold;
@@ -90,6 +95,7 @@ button {
   height:425px;
   border-radius:8px;
   margin-right: 34px;
+  overflow:hidden;
 
 }
 
@@ -250,8 +256,8 @@ h3 {
   /* height:300px;
   width:450px;
   background-size: cover; */
-    height:175px;
-    width:407px;
+    /* height:175px;
+    width:407px; */
     background-size: cover;
     border-radius: 7px;
 }
@@ -274,6 +280,7 @@ h3 {
 
   background-color: none;
 }
+
 
 @media (min-width: 768px) {
   .card img {
@@ -306,9 +313,9 @@ h3 {
 }
 
 .inside{
-  margin-right: 20px;
+  /* margin-right: 20px;
  
-  width:390px;
+  width:390px; */
   box-shadow: 1px 3px 0px 0px rgba(166, 215, 239, 0.132);
 }
 .inside-inside{
@@ -460,12 +467,12 @@ h3 {
     font-size:19px;
     text-align: left !important;
     font-weight:549 !important;
-    margin-top: -21px !important;
+    margin-top: -22px !important; 
 }
 
-.money .material-symbols-outlined{
+/* .money .material-symbols-outlined{
     margin-left: 90px;
-}
+} */
 
 .mag{
   font-size: 19px;
@@ -589,7 +596,7 @@ h3 {
   height: 500px; */
   height:400px;
   width:500px;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-top:90px;
 }
 
@@ -775,7 +782,72 @@ button:hover{
   background-color: none;
 }
 
+@media (max-width: 1024px){
+      .discount .star2{
+        right:101px;
+        margin-top:14px;
+      }
 
+      .discount .star1{
+        left:-66px;
+        margin-top:-12px;
+      }
+
+      .saying .card img{
+        margin-top:76px;
+        margin-right:14px;
+        width:144px;
+        height:275px;
+        margin-left:18px;
+      }
+
+      .saying .inner-text{
+        margin-top:10px;
+        text-align: left;
+        font-size:17px;
+      }
+
+      .saying .star1{
+        margin-top:1px;
+      }
+
+      .saying .it{
+        margin-top:-25px;
+        font-size: 22px !important;
+      }
+
+      .golo{
+        width:45px;
+        height:45px;
+      }
+
+      .mag{
+        font-size: 17px;
+        margin-left:10px;
+      }
+      
+      .card-text{
+          font-size: 17px;
+          margin-top:37px;
+      }
+       
+      #great{
+        font-size: 22px;
+      }
+
+      .journey img{
+        height:362px;
+        width:391px;
+      }
+      
+      .explore .star{
+        margin-left:-3px;
+      }
+
+      .small-box{
+        margin-right: 8pxg;
+      }
+} 
  @media (max-width:768px){
   .section{
     width: 685px;
@@ -1011,6 +1083,7 @@ button:hover{
 .small-box{
   width:231px;
   height:530px;
+  
 }
 
 .discount .star1{
@@ -1029,9 +1102,10 @@ button:hover{
     margin-top: 67px;
   }
 
-  .inside{
-    width:260px;
+  .explore .inside{
+    width:260px !important;
   }
+
 
   .contact{
     margin-top: 20px;
@@ -1192,6 +1266,7 @@ button:hover{
     font-size: 18px;
     margin-top: 115px;
     line-height: 21px;
+    display:none;
   }
   .top{
     font-size: 15px !important;
@@ -1211,13 +1286,13 @@ button:hover{
   }
   .carousel-control-prev {
     top: 50%  !important;
-    left:-10px !important;
+    left:-3px !important;
     color:rgb(0, 0, 0) !important;
   }
   
   .carousel-control-next{
     top: 50%  !important;
-    right:-45px !important;
+    right:-30px !important;
     color:rgb(0, 0, 0) !important;
   }
 
@@ -1226,4 +1301,5 @@ button:hover{
   }
  }
 
+ 
 
