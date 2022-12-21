@@ -883,7 +883,7 @@ button:hover{
  
  }
 
- .discount .image-wrapper img{
+ .discount .img{
   height:8em !important;
   width:190px !important;
  }
@@ -1001,16 +1001,39 @@ button:hover{
   .location{
     font-size:19px;
   } 
+
+  .discount .card{
+    height:255px !important;
+  }
   
   .discount img{
-    height:100px;
-    width:140px;
+    height:150px !important;
+    width:260px !important;
   }
-  .discount.h5{
-    font-size: 5px;
+  .discount h5{
+    font-size: 16px;
     line-height: 17px;
   }
   
+  .discount .cards-wrapper{
+    width:515px;
+  }
+
+
+  .discount .star1{
+    left:-47px !important;
+    margin-top:-10px !important;
+  }
+
+  .discount .star2{
+    right:67px;
+    margin-top: 17px;
+  }
+
+  .discount h1{
+    font-size: 30px !important;
+  }
+
   #second-card{
     display:none;
   }
@@ -1060,6 +1083,10 @@ button:hover{
     margin-left:-9px !important;
     margin-right:8px;
   }
+
+  .explore .star {
+    margin-top: 6px !important;
+  }
   .destination h1{
     font-size: 30px !important;
   }
@@ -1068,26 +1095,7 @@ button:hover{
     font-size: 18px !important;
   }
  
-  .discount .cards-wrapper{
-    width:515px;
-  }
-
-  .discount h5{
-    font-size: 14px;
-  }
-
-  .discount .star1{
-    left:-47px !important;
-    margin-top: -34px !important;
-  }
-
-  .discount .star2{
-    right:67px;
-  }
-
-  .discount h1{
-    font-size: 30px !important;
-  }
+  
 
   .features .material-symbols-outlined{
     font-size: 75px !important;
@@ -1122,7 +1130,8 @@ button:hover{
     font-size: 15px;
   }
   #red{
-    margin-top: 6px !important;
+    margin-top: -6px !important;
+    margin-left: 192px !important;
   }
   #trip{
     margin-top: 190px !important;
@@ -1149,6 +1158,11 @@ button:hover{
   #enjoy{
     margin-top: 75px;
   }
+  
+  .small-box{
+    height:385px;
+    margin-top:10px;
+  }
   .carousel-control-prev {
     top: 50%  !important;
     left:-10px !important;
@@ -1157,7 +1171,7 @@ button:hover{
   
   .carousel-control-next{
     top: 50%  !important;
-    right:-20px !important;
+    right:-45px !important;
     color:rgb(0, 0, 0) !important;
   }
 
