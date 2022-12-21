@@ -845,13 +845,16 @@ button:hover{
     bottom:-13px !important;
     left:8px !important;
   }
-
+   
+  .discount h5{
+    line-height:20px;
+  }
   .discount .inside-inside{
-    width:239px ;
+    width:207px ;
   }
 
   .discount .inside{
-    width:239px;
+    width:206px;
   }
 
   .explore .inside{
@@ -1012,6 +1015,7 @@ button:hover{
 
 .discount .star1{
   left:-24px !important;
+  margin-top: -14px !important;
 }
 
 }
