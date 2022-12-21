@@ -835,8 +835,27 @@ button:hover{
     font-size: 20px;
   }
 
+  .image-wrapper img{
+    width:207px;
+  }
   .saying h1{
     font-size: 36px !important;
+  }
+  .discount .star2{
+    bottom:-13px !important;
+    left:8px !important;
+  }
+
+  .discount .inside-inside{
+    width:239px ;
+  }
+
+  .discount .inside{
+    width:239px;
+  }
+
+  .explore .inside{
+      width:220px
   }
 
   .saying .card{
@@ -881,6 +900,11 @@ button:hover{
   .explore .discover{
     font-size: 18px; 
  
+ }
+
+ .explore .star{
+  margin-top:5px !important;
+  margin-left:-2px !important;
  }
 
  .discount .img{
@@ -949,9 +973,7 @@ button:hover{
   color:#000000
 }
 
-.star1{
-  left:-12px;
-}
+
 
 .saying .card-title{
   font-size:20px; 
@@ -967,10 +989,30 @@ button:hover{
     text-align: center;
 }
 
-.inner-text{
-  margin-left: -42px;
+#great{
+  padding-top:14px;
+  font-size: 22px !important;
 }
 
+.saying .card-text{
+  margin-top: 15px;
+}
+
+.saying .card-foot{
+  margin-top: -8px;
+}
+
+.saying .it{
+  font-size: 22px !important;
+}
+.small-box{
+  width:231px;
+  height:530px;
+}
+
+.discount .star1{
+  left:-24px !important;
+}
 
 }
 
