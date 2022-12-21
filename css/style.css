@@ -983,6 +983,9 @@ button:hover{
     margin-top: 67px;
   }
 
+  .inside{
+    width:260px;
+  }
 
   .contact{
     margin-top: 20px;
